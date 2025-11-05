@@ -13,7 +13,7 @@ class Game:
 
         self.screen = pygame.display.set_mode((self.settings.width, self.settings.height))
         pygame.display.set_caption("Zelda") 
-        pygame.display.set_icon(pygame.image.load('Zelda Logo.ico'))
+        pygame.display.set_icon(pygame.image.load('zelda_logo.ico'))
         self.clock = pygame.time.Clock()
         
         self.main_sound = pygame.mixer.Sound(absolute_path('audio/main.ogg'))

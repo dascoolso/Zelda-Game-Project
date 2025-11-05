@@ -1,0 +1,10 @@
+# Python Cache Files
+code/__pycache__/
+
+# Pyinstaller Files and Folders
+*.spec
+build/
+dist/
+
+# VSCode extension
+.vscode
